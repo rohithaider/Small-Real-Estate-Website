@@ -3,7 +3,7 @@ import Titles from "./Titles";
 export default function Property() {
   return (
     <section>
-      <div className="container">
+      <div className="container mx-auto">
         <Titles
           title="Properties"
           header="Grab your Dream Property"
