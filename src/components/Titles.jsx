@@ -1,4 +1,4 @@
-export default function Titles({title,header,description}){
+export default function Titles({title,header,description,secDescription}){
     return (
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -11,6 +11,10 @@ export default function Titles({title,header,description}){
               </h2>
               <p className="text-base text-body-color dark:text-dark-6">
                 {description}
+              </p>
+              {secDescription?<><br /><br /></>:""}
+              <p className="text-base text-body-color dark:text-dark-6">
+                {secDescription}
               </p>
             </div>
           </div>
