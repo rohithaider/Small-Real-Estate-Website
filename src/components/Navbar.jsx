@@ -1,3 +1,4 @@
+//Putting in public assets
 import Button from "./Button";
 export function NavSvg(){
     return(
