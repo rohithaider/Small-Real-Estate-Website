@@ -1,3 +1,4 @@
+import Clients from "./components/Clients";
 import CTA from "./components/CTA";
 import FAQ from "./components/FAQ";
 import Features from "./components/Features";
@@ -19,6 +20,7 @@ export default function App(){
     <Innovation/>
     <CTA/>
     <FAQ/>
+    <Clients/>
     </>
   )
 }
