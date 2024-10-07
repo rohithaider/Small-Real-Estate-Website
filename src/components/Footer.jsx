@@ -139,7 +139,7 @@ function Blog() {
 export default function Footer() {
   return (
     <footer class=" relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]">
-      <div class="container">
+      <div class="container mx-auto">
         <div class="-mx-4 flex flex-wrap">
           <Social />
           <AboutUs />
