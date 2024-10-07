@@ -2,11 +2,11 @@ import Titles from "./Titles";
 import Button from "./Button";
 function MainContainer() {
   return (
-    <div class="container mx-auto">
-      <div class="relative overflow-hidden">
-        <div class="-mx-4 flex flex-wrap items-stretch">
-          <div class="w-full px-4">
-            <div class="mx-auto max-w-[570px] text-center">
+    <div className="container mx-auto">
+      <div className="relative overflow-hidden">
+        <div className="-mx-4 flex flex-wrap items-stretch">
+          <div className="w-full px-4">
+            <div className="mx-auto max-w-[570px] text-center">
               <Titles
                 title={`What Are You Looking For?`}
                 titleClass={`mb-2.5 text-3xl font-bold text-white md:text-[38px] md:leading-[1.44]`}
@@ -31,7 +31,7 @@ function MainContainer() {
 function CtaSvg() {
   return (
     <div>
-      <span class="absolute left-0 top-0">
+      <span className="absolute left-0 top-0">
         <svg
           width="495"
           height="470"
@@ -62,7 +62,7 @@ function CtaSvg() {
           />
         </svg>
       </span>
-      <span class="absolute bottom-0 right-0">
+      <span className="absolute bottom-0 right-0">
         <svg
           width="493"
           height="470"
@@ -100,7 +100,7 @@ function CtaSvg() {
 
 export default function CTA() {
   return (
-    <section class="relative z-10 overflow-hidden bg-primary py-20 lg:py-[115px]">
+    <section className="relative z-10 overflow-hidden bg-primary py-20 lg:py-[115px]">
       <MainContainer />
       <CtaSvg />
     </section>
