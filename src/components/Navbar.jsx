@@ -44,7 +44,7 @@ export default function Navbar() {
             </ul>
 
             <div className="sm:flex">
-              <Button name="Sign In" value="flex-1 loginBtn px-[22px] py-2 text-base font-medium text-white hover:opacity-70"/>
+              <Button name="Sign In" value="flex-1 loginBtn pr-6 lg:px-[22px] py-2 text-base font-medium text-white hover:opacity-70"/>
               <Button name="Sign Up"  value="signUpBtn rounded-md bg-white bg-opacity-20 px-6 py-2 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark"/>
             </div>
           </div>
