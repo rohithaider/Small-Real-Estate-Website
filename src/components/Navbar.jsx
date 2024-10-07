@@ -1,5 +1,5 @@
 import Button from "./Button";
-function NavSvg(){
+export function NavSvg(){
     return(
         <a
               href="index.html"
